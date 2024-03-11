@@ -15,7 +15,15 @@
 	# - Minimises root partition and filesystem
 	# - Compresses the final image ready for release
 	#////////////////////////////////////
-
+	HW_MODEL=5
+	G_HW_MODEL=5
+	#Trixie=8
+	DISTRO=8
+	G_DISTRO=8
+	GITBRANCH='dev'
+	G_GITBRANCH='dev'
+	GITOWNER='D2KC'
+	G_GITOWNER='D2KC'
 	# Import DietPi-Globals ---------------------------------------------------------------
 	if [[ -f '/boot/dietpi/func/dietpi-globals' ]]
 	then
