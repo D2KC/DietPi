@@ -15,7 +15,15 @@
 	# - Sourced/Loaded in interactive bash sessions via /etc/bashrc.d/dietpi.bash
 	# - Sourced/Loaded at start of most DietPi script
 	#////////////////////////////////////
-
+	HW_MODEL=5
+	G_HW_MODEL=5
+	#Trixie=8
+	DISTRO=8
+	G_DISTRO=8
+	GITBRANCH='dev'
+	G_GITBRANCH='dev'
+	GITOWNER='D2KC'
+	G_GITOWNER='D2KC'
 	#-----------------------------------------------------------------------------------
 	# Core variables, functions and environment, used at start of most DietPi scripts
 	#-----------------------------------------------------------------------------------
@@ -60,12 +68,20 @@
 	[[ $G_GITOWNER ]] || G_GITOWNER='MichaIng'
 	# - Save current version and Git branch
 	G_VERSIONDB_SAVE(){
-
-		echo "G_DIETPI_VERSION_CORE=$G_DIETPI_VERSION_CORE
-G_DIETPI_VERSION_SUB=$G_DIETPI_VERSION_SUB
-G_DIETPI_VERSION_RC=$G_DIETPI_VERSION_RC
-G_GITBRANCH='$G_GITBRANCH'
-G_GITOWNER='$G_GITOWNER'" > /boot/dietpi/.version
+	HW_MODEL=5
+	G_HW_MODEL=5
+	#Trixie=8
+	DISTRO=8
+	G_DISTRO=8
+	GITBRANCH='dev'
+	G_GITBRANCH='dev'
+	GITOWNER='D2KC'
+	G_GITOWNER='D2KC'
+	echo "G_DIETPI_VERSION_CORE=$G_DIETPI_VERSION_CORE
+	G_DIETPI_VERSION_SUB=$G_DIETPI_VERSION_SUB
+	G_DIETPI_VERSION_RC=$G_DIETPI_VERSION_RC
+	G_GITBRANCH='$G_GITBRANCH'
+	G_GITOWNER='$G_GITOWNER'" > /boot/dietpi/.version
 
 	}
 
