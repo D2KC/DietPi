@@ -4,11 +4,11 @@
 ##########################################
 # Load DietPi-Globals
 ##########################################
-HW_MODEL=5
-G_HW_MODEL=5
+HW_MODEL=4
+G_HW_MODEL=4
 #Trixie=8
-DISTRO=8
-G_DISTRO=8
+DISTRO=7
+G_DISTRO=7
 GITBRANCH='dev'
 G_GITBRANCH='dev'
 GITOWNER='D2KC'
