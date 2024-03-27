@@ -15,8 +15,8 @@
 	# - Minimises root partition and filesystem
 	# - Compresses the final image ready for release
 	#////////////////////////////////////
-	HW_MODEL=5
-	G_HW_MODEL=5
+	HW_MODEL=4
+	G_HW_MODEL=4
 	#Trixie=8
 	DISTRO=8
 	G_DISTRO=8
