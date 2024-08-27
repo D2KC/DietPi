@@ -43,15 +43,20 @@ G_EXEC cd "$FP_ORIGIN" # Process everything in origin dir instead of /tmp/$G_PRO
 ##########################################
 # Process inputs
 ##########################################
-HW_MODEL=
-HW_ARCH=
-DISTRO=7 # 6=Bullseye, 7=Bookworm, 8=Trixie
+HW_MODEL=5
+G_HW_MODEL=5
+HW_ARCH=3
+G_HW_ARCH=3
+DISTRO=8 # 6=Bullseye, 7=Bookworm, 8=Trixie
+G_DISTRO=8
+GITBRANCH='master'
+G_GITBRANCH='master'
+GITOWNER='MichaIng'
+G_GITOWNER='MichaIng'
 PTTYPE='msdos'
 FSTYPE='ext4'
 ITYPE=
 VMTYPE=
-GITBRANCH='master'
-GITOWNER='MichaIng'
 EDITION=
 SUFFIX=
 ADD_DOS_PART=1
